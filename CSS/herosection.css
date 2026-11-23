@@ -1,0 +1,122 @@
+.hero {
+    width: 768px;
+    height: 1536px;
+    min-height: 600px;
+    position: relative;
+}
+.background-image {
+    width: 768px;
+    height: 1536px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.image {
+    width: 768px;
+    height: 1536px;
+    background-image: url("../image/1722c94ee66ec329543cce22347e26ac795a63c6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.gradient {
+    width: 768px;
+    height: 1536px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.2) 50%,
+        #F8F9FA 100%
+    );
+}
+.container {
+    width: 768px;
+    height: 315.97px;
+    max-width: 896px;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading-container {
+    width: 608px;
+    height: 158.38px;
+    padding-bottom: 24px;
+}
+.heading-text {
+    width: 581.17px;
+    height: 135px;
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 67.2px;
+    letter-spacing: -1.12px;
+    text-align: center;
+    color: #FFFFFF;
+
+    box-shadow: 0px 10px 8px 0px #0000000A,
+                0px 4px 3px 0px #0000001A;
+}
+.description-container {
+    width: 608px;
+    height: 97.59px;
+    max-width: 672px;
+    padding-bottom: 40px;
+}
+.description-text-container {
+    width: 608px;
+    height: 57.59px;
+    max-width: 672px;
+    box-shadow: 0px 4px 3px 0px #00000012,
+                0px 2px 2px 0px #0000000F;
+}
+.description-text {
+    width: 550.96px;
+    height: 58px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFFE5;
+}
+.hero-button {
+    width: 184.8px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 32px;
+    border-radius: 9999px;
+    background: #0077B6;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px -4px #0000001A,
+                0px 10px 15px -3px #0000001A;
+}
+.hero-button-text {
+    width: 96.8px;
+    height: 28px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.button-icon {
+    width: 16px;
+    height: 16px;
+}
