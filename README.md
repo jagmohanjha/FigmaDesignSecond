@@ -10,7 +10,8 @@ This project is currently being developed using HTML and CSS. I am focusing on r
 - CSS3
 - Flexbox
 - CSS Grid
-  ## Live Demo
+
+## Live Demo
 
 [View Live Website](https://figmadesignsecond.vercel.app/#)
 
@@ -21,12 +22,7 @@ This project is currently being developed using HTML and CSS. I am focusing on r
 - Featured destinations section with destination cards
 - Navigation bar
 - Footer with useful links
-- Tablet layout
-- Responsive design (Desktop and Mobile – In Progress)
-
-## Live Demo
-
-Coming soon.
+- Responsive design (Desktop , tablet and Mobile)
 
 ## Run Locally
 
@@ -45,10 +41,6 @@ Coming soon.
 3. Open `index.html` in your browser.
 
 You can also use the Live Server extension in VS Code for a better development experience.
-
-## Project Status
-
-The tablet layout is currently being developed based on the Figma design. Desktop and mobile responsive layouts will be added next.
 
 ## Author
 
