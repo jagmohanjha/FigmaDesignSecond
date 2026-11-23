@@ -1,26 +1,30 @@
 .destinations-section {
-    width: 768px;
-    height: 1264.17px;
+    width: 100%;
     max-width: 1536px;
+    height: 1264.17px;
+
     display: flex;
     flex-direction: column;
     gap: 64px;
 
     padding: 95px 80px 95.99px;
     box-sizing: border-box;
+    margin: 0 auto;
 
     background: #F8F9FA;
 }
+
 .destinations-container {
-    width: 608px;
+    width: 100%;
     height: 87.8px;
 
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
+
 .destinations-heading {
-    width: 608px;
+    width: 100%;
     height: 47.8px;
     padding-bottom: 0.8px;
 
@@ -41,8 +45,9 @@
 
     color: #023E8A;
 }
+
 .destinations-description-container {
-    width: 608px;
+    width: 100%;
     height: 24px;
     max-width: 672px;
 
@@ -50,48 +55,63 @@
     justify-content: center;
     align-items: center;
 }
+
 .destinations-description {
     width: 441.88px;
     height: 24px;
+
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+
     color: #404850;
 }
+
 .destinations-grid {
-    width: 608px;
+    width: 100%;
     height: 921.38px;
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+
     column-gap: 24px;
     row-gap: 24px;
 }
+
 .destination-card {
-    width: 292px;
+    width: 100%;
     height: 449.5px;
+
     background: #FFFFFF;
     border: 1px solid #E7E8E9;
     border-radius: 12px;
+
     box-sizing: border-box;
     overflow: hidden;
 }
+
 .destination-badge {
     position: absolute;
     top: 12px;
     right: 12px;
     z-index: 2;
+
     width: 117px;
     height: 22px;
+
     padding: 4px 12px;
     border-radius: 9999px;
+
     background: #E9C46A;
     box-shadow: 0px 1px 2px 0px #0000000D;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     box-sizing: border-box;
 }
 
@@ -104,51 +124,58 @@
 
     color: #773E00;
 }
+
 .destination-image {
-    width: 290px;
+    width: 100%;
     height: 217px;
+
     object-fit: cover;
     display: block;
 }
+
 .destination-image-container {
-    width: 290px;
+    width: 100%;
     height: 217.5px;
     position: relative;
 }
 
 .destination-card-content {
-    width: 290px;
+    width: 100%;
     height: 230px;
-    padding: 24px;
 
+    padding: 24px;
     box-sizing: border-box;
 }
 
 .destination-card-heading-container {
-    width: 242px;
+    width: 100%;
     height: 48px;
+
     padding-bottom: 8px;
     box-sizing: border-box;
 }
 
 .destination-card-heading {
     margin: 0;
+
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700;
     font-size: 28px;
     line-height: 39.2px;
+
     color: #0077B6;
 }
 
 .destination-card-description-container {
-    width: 242px;
+    width: 100%;
     height: 96px;
-    padding-bottom: 24px;
 
+    padding-bottom: 24px;
     box-sizing: border-box;
 }
+
 .destination-card-description {
-    width: 242px;
+    width: 100%;
     height: 72px;
 
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -159,8 +186,9 @@
 
     color: #404850;
 }
+
 .destination-card-button {
-    width: 242px;
+    width: 100%;
     height: 38px;
 
     padding-top: 12px;
@@ -184,4 +212,154 @@
     text-align: center;
 
     color: #773E00;
+}
+
+@media (min-width: 1024px) {
+    .destinations-section {
+        width: 100%;
+        height: auto;
+        padding: 95px 80px;
+        gap: 64px;
+    }
+
+    .destinations-container {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .destinations-grid {
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-rows: auto;
+        gap: 24px;
+    }
+
+    .destination-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .destination-image-container {
+        width: 100%;
+        height: 220px;
+    }
+
+    .destination-image {
+        width: 100%;
+        height: 220px;
+    }
+
+    .destination-card-content {
+        width: 100%;
+        height: auto;
+        min-height: 230px;
+    }
+}
+@media (max-width: 767px) {
+    .destinations-section {
+        width: 100%;
+        height: auto;
+
+        padding: 70px 20px;
+        gap: 40px;
+    }
+
+    .destinations-container {
+        width: 100%;
+        height: auto;
+        gap: 12px;
+    }
+
+    .destinations-heading {
+        width: 100%;
+        height: auto;
+    }
+
+    .destinations-heading-text {
+        width: 100%;
+        height: auto;
+
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .destinations-description-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .destinations-description {
+        width: 100%;
+        height: auto;
+
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .destinations-grid {
+        width: 100%;
+        height: auto;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
+        gap: 24px;
+    }
+
+    .destination-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .destination-image-container {
+        width: 100%;
+        height: 220px;
+    }
+
+    .destination-image {
+        width: 100%;
+        height: 220px;
+    }
+
+    .destination-card-content {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .destination-card-heading-container {
+        width: 100%;
+        height: auto;
+        padding-bottom: 12px;
+    }
+
+    .destination-card-heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .destination-card-description-container {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .destination-card-description {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .destination-card-button {
+        width: 100%;
+        height: 42px;
+        padding: 14px 0;
+    }
+
+    .destination-card-button-text {
+        width: 100%;
+    }
 }
